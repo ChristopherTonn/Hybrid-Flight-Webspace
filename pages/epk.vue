@@ -1,6 +1,7 @@
 <template>
   <div>
     <AnimatedBackground />
+    <Hero />
     <div class="page-header">
       <div class="container">
         <h1>epk</h1>
@@ -16,10 +17,12 @@
 
 <script>
 import AnimatedBackground from '@/components/animated-background.vue';
+import Hero from '@/components/Hero.vue';
 export default {
   name: 'EPK',
   components: {
     AnimatedBackground,
+    Hero,
   },
   data() {
     return {
